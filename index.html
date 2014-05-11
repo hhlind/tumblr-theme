@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{Title}</title>
+<meta name="description" content="">
+<meta name="author" content="" />
+    
+<!-- FACEBOOK TAGIT. LÄHDE: http://davidwalsh.name/facebook-meta-tags
+=====================================================================
+-->
+<meta property="og:image" content=""/>
+<meta property="og:title" content=""/>
+<meta property="og:url" content=""/>
+<meta property="og:site_name" content=""/>
+    
+<!-- TWITTER TAGIT. SIVU TÄYTYY REKISTERÖIDÄ ENSIN OSOITTEESSA https://dev.twitter.com/cards. LÄHDE: http://davidwalsh.name/twitter-cards 
+====================================================================================================
+-->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="">
+
+
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="tyyli.css">
+
+<!-- OTA KÄYTTÖÖN JAVASCRIPT/JAVASCRIPTKIRJASTO.
+================================================
+-->
+
+    
+<!-- TÄHÄN TULISI GOOGLE ANALYTICS -SCIRPTI.
+============================================
+-->
+</head>
+       
+<style>
+/*NORMALIZE.CSS start*/
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+/*NORMALIZE.CSS end*/
+
+
+*,
+*:after,
+*:before {
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-size: 1em;
+  line-height: 1.5em;
+  width:100%;
+  margin: 0 auto;
+  color: #444;
+}
+h1,h2,h3,h4,h5,h6{font-family:serif;}
+h1 {
+  font-size: 2.25em;
+  line-height: 1.333333334em;
+  margin-top: 1.33333333em;
+  margin-bottom: 0.66666667em;
+}
+h2 {
+  font-size: 3em;
+  line-height: 1.333333334em;
+  margin-top: 1.33333333em;
+  margin-bottom: 0.66666667em;
+}
+h3 {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* Sanitation */
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+  font-size: 50%;
+}
+sub {
+  top: 0.4em;
+}
+
+
+header{
+/*
+background-image:url(http://static.tumblr.com/wwquqls/mB3n529l4/instagramcapture_de4e5825-3985-4992-8b10-e5cf610814f0_jpg.jpg); 
+background-size:cover;
+background-repeat:no-repeat;
+height:100%;
+*/
+text-align:center;
+padding:2em;
+margin-bottom:4em;
+}
+
+.header-text{
+background-color:rgba(0, 0, 0, 0.5);
+padding:8px;
+font-family: 'Droid Sans', sans-serif;
+font-weight:700;
+color:#ffffff;
+
+}
+
+
+img {
+width:100%;
+}
+
+article{border-bottom:1px solid #444;}
+article:last-of-type {border-bottom:none};
+article:nth-of-type(odd){background-color:#000;}
+footer {
+border-top: 1px solid rgba(0,0,0,0.1);
+clear: both;     
+margin: 0.625em 0;
+padding: 2em 0;
+text-align: center;
+}
+.box {
+background-color: navy;
+color: #FFF;
+padding: 0.625em 0.625em;
+text-align: center;
+}
+
+/*------------------------------------------- 
+      RUUDUKON TYYLIT
+-------------------------------------------*/
+
+.rivi {
+margin:0 auto;
+}
+
+.rivi .rivi {
+margin-left: -0.65em;
+margin-right: -0.65em;
+width: auto;
+}
+
+[class*='kolumni-'] {
+float: left;
+position: relative;
+padding: 1em;
+width:100%;
+}
+
+
+[class*='kolumni-']:last-of-type {
+float: right;
+}
+
+/* Clearfix */
+.rivi:after {
+content: "";
+display: table;
+clear: both;
+}
+.nyytti {
+margin: 0 auto;
+width: 96%;
+max-width: 73em;
+}
+.nyytti:before,
+.nyyttii:after {
+display: table;
+content: " ";
+}
+.nyytti:after {
+clear: both;
+}
+.artikkeli{max-width:31em; margin:0 auto;}
+
+@media only screen {
+.kolumni-1-phone { width: 8.3333333333333%; }
+.kolumni-2-phone { width: 16.666666666667%; }
+.kolumni-3-phone { width: 25%; }
+.kolumni-4-phone { width: 33.333333333333%; }
+.kolumni-5-phone { width: 41.666666666667%; }
+.kolumni-6-phone { width: 50%; }
+.kolumni-7-phone { width: 58.333333333333%; }
+.kolumni-8-phone { width: 66.666666666667%; }
+.kolumni-9-phone { width: 75%; }
+.kolumni-10-phone { width: 83.333333333333%; }
+.kolumni-11-phone { width: 91.666666666667%; }
+.kolumni-12-phone { width: 100%; }
+}
+
+@media only screen and (min-width: 48em) {
+.kolumni-1-tablet { width: 8.3333333333333%; }
+.kolumni-2-tablet { width: 16.666666666667%; }
+.kolumni-3-tablet { width: 25%; }
+.kolumni-4-tablet { width: 33.333333333333%; }
+.kolumni-5-tablet { width: 41.666666666667%; }
+.kolumni-6-tablet { width: 50%; }
+.kolumni-7-tablet { width: 58.333333333333%; }
+.kolumni-8-tablet { width: 66.666666666667%; }
+.kolumni-9-tablet { width: 75%; }
+.kolumni-10-tablet { width: 83.333333333333%; }
+.kolumni-11-tablet { width: 91.666666666667%; }
+.kolumni-12-tablet { width: 100%; }
+}
+
+@media only screen and (min-width: 62em) {
+.kolumni-1-laptop { width: 8.3333333333333%; }
+.kolumni-2-laptop { width: 16.666666666667%; }
+.kolumni-3-laptop { width: 25%; }
+.kolumni-4-laptop { width: 33.333333333333%; }
+.kolumni-5-laptop { width: 41.666666666667%; }
+.kolumni-6-laptop { width: 50%; }
+.kolumni-7-laptop { width: 58.333333333333%; }
+.kolumni-8-laptop { width: 66.666666666667%; }
+.kolumni-9-laptop { width: 75%; }
+.kolumni-10-laptop { width: 83.333333333333%; }
+.kolumni-11-laptop { width: 91.666666666667%; }
+.kolumni-12-laptop { width: 100%; }
+}
+
+@media only screen and (min-width: 75em) {
+.kolumni-1-desktop { width: 8.3333333333333%; }
+.kolumni-2-desktop { width: 16.666666666667%; }
+.kolumni-3-desktop { width: 25%; }
+.kolumni-4-desktop { width: 33.333333333333%; }
+.kolumni-5-desktop { width: 41.666666666667%; }
+.kolumni-6-desktop { width: 50%; }
+.kolumni-7-desktop { width: 58.333333333333%; }
+.kolumni-8-desktop { width: 66.666666666667%; }
+.kolumni-9-desktop { width: 75%; }
+.kolumni-10-desktop { width: 83.333333333333%; }
+.kolumni-11-desktop { width: 91.666666666667%; }
+.kolumni-12-desktop { width: 100%; }
+body {
+  font-size: 1.375em;
+  line-height: 1.681818182em;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 6.272727273em;
+  line-height: 1.072463768em;
+  margin-top: 0.53623188em;
+  margin-bottom: 0.26811594em;
+}
+h2 {
+  font-size: 6.272727273em;
+  line-height: 1.072463768em;
+  margin-top: 0.53623188em;
+  margin-bottom: 0.26811594em;
+}
+h3 {
+  font-size: 2.5em;
+  line-height: 1.345454546em;
+  margin-top: 0.67272727em;
+  margin-bottom: 0.67272727em;
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.681818182em;
+  margin-top: 1.68181818em;
+  margin-bottom: 1.68181818em;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 1.68181818em;
+  margin-bottom: 1.68181818em;
+}
+
+/* Sanitation */
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+  font-size:10%;
+  
+}
+sub {
+  top: 0.4em;
+}
+}
+
+@media only screen and (max-width: 30em){
+.kolumni-100 { width:100%;}
+}
+
+
+</style>
+    </head>
+    <body>
+        <header>
+            <h1 class="header-text">{Title}</h1>
+            <p>{Description}</p>
+        </header>
+        <div class="nyytti">
+        <section>
+        <div class="rivi">
+        <div class="kolumni-12-desktop">
+        {block:Posts}
+        <article>
+            {block:Text}
+                <h2>{Title} <sup>{TimeAgo}</sup></h2>
+            <div class="artikkeli">
+                {Body}
+            </div>
+            {/block:Text}
+            
+            {block:Photo}
+            <h5>{TimeAgo}</h5>
+               <img src="{PhotoURL-500}">
+            {/block:Photo}
+            
+            {block:Audio}
+            <h5>{TimeAgo}</h5>
+                {AudioEmbed}
+            {/block:Audio}
+            
+            {block:video}
+            <h5>{TimeAgo}</h5>
+                {Video-500}
+            {/block:Video}
+        </article>
+        {/block:Posts}
+        </div><!-- .kolumni-12-desktop -->
+        </div><!-- .rivi -->
+        
+        <footer>
+            <div class="rivi">
+                
+<div class="kolumni-6-desktop"><div class="box"><p>
+    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+</p></div></div>
+
+                   
+            </div>
+        </footer>
+        </div><!-- .nyytti-->
+
+    </body>
+    
+</html>
